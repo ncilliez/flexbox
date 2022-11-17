@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header, .lateral1, .middle, .lateral2, footer{
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+
+
+header{
+    background-color: #e07a5f;
+    font-weight: bold;
+}
+
+
+
+.contenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lateral1{
+    flex:1;
+    background-color: #3D405B;
+}
+.middle{
+    flex:2;
+    background-color: #FFFFFF;
+}
+.lateral2{
+    flex:1;
+    background-color: #81B29A;
+}
+
+
+
+
+
+footer{
+    background-color: #F2CC8F;
+    font-size: 12px;
+}
